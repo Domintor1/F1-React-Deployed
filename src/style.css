@@ -1,0 +1,159 @@
+/* Responsiveness styling for small devices */
+
+@media (max-width: 800px) {
+  table {
+    display: block;
+    width: 100% !important;
+    margin: auto;
+    overflow-x: auto;
+  }
+  .navbar {
+    width: 100% !important;
+  }
+  .input-group-text {
+    display: block !important;
+    width: 100% !important;
+  }
+  .input-group-text .search {
+    display: block;
+    width: 100% !important;
+    display: none;
+  }
+}
+
+/* Page wide styling*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 5px;
+}
+
+p {
+  font-size: 20px;
+}
+
+/* Navbar + Logo Styling*/
+
+#logo {
+  color: white;
+  background-color: wheat;
+}
+
+#wiki {
+  color: red;
+}
+
+.navbar {
+  width: 100% !important;
+  background-color: red !important;
+}
+
+.navbar-brand {
+  font-size: 15px !important;
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.dropdown-toggle {
+  color: rgba(255, 255, 255, 0.75) !important;
+  background-color: inherit !important;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: start;
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
+/* Select Year Label + Dropdown */
+
+.input-group-text {
+  margin-bottom: 2%;
+}
+
+/* Table Styling */
+
+.mapped {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+table {
+  width: 80% !important;
+  margin: auto;
+}
+
+table tr,
+td,
+th {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  color: black;
+  font-weight: bold;
+}
+
+/* Loading Spinner Styling */
+
+.loading {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.loader { 
+  font-size: 100px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Pagination styling*/
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+button {
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.pagination button.active {
+  font-weight: 900;
+  border-color: #101010;
+  background: #ffe400;
+  color: #101010;
+}
+
+.form-group {
+  display: flex;
+  justify-content: center;
+}
+
+.year {
+  float: left;
+}
+
+.search {
+  float: left;
+}
+
+/* Bar Chart Styling and Formatting */
+
+.chart-container {
+  height: 450px;
+  width: auto;
+}
