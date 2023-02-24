@@ -1,8 +1,8 @@
-node_modules/
+node_modules
+.parcel-cache
+.parcel-cache/data.mdb
 dist/
 .env
 .DS_Store
 coverage/
 .vscode/
-# Local Netlify folder
-.netlify
