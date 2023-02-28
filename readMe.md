@@ -1,7 +1,12 @@
-<<<<<<< HEAD
 F1 Turbo Hybrid era wiki
 
+LINK TO PROJECT SITE
+https://master--f1-react-wiki.netlify.app/
+
 Responsive wiki providing information on main f1 data (such as calendar, standings, driver lists) by fetching data from ergastf1 api. Users can filter by name and/or year of the drivers and constructors that participated within this era (2014-). Also includes a graphical breakdown of the statistics through the use of bar charts and pie charts. Includes some testing using Vitest.
+
+API used for data -
+https://ergast.com/mrd/
 
 Languages / Technologies used-
 
