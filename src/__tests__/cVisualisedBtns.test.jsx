@@ -1,3 +1,4 @@
+import React from "react";
 import CStandingsVisualised from "../DriverStandingsVisualised/DStandingsVisualised";
 import { expect, test } from "vitest";
 import { QueryClientProvider, QueryClient } from "@tanstack/react-query";

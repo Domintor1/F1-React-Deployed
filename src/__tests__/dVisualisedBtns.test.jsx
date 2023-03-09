@@ -1,7 +1,8 @@
+import React from "react";
 import DStandingsVisualised from "../DriverStandingsVisualised/DStandingsVisualised";
 import { expect, test } from "vitest";
 import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
-import { findAllByTestId, getByTestId, render } from "@testing-library/react";
+import { render } from "@testing-library/react";
 import { vi } from "vitest";
 
 const queryClient = new QueryClient({
