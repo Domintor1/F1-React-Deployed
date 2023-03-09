@@ -1,8 +1,8 @@
+import React from "react";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { test, expect } from "vitest";
 import { render } from "@testing-library/react";
 import DriverList from "../DriverList/DriverList";
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import React from "react";
 
 const queryClient = new QueryClient({
   defaultOptions: {
